@@ -67,4 +67,4 @@ I spent a good amount of time on the UI to make it feel modern and responsive.
 - No real-time updates (you need to refresh to see changes from other users).
 
 ## Demo Video
-[Link to video]
+https://youtu.be/MPpD0_z7hWI?si=Scc9WThb31bv9l4O
