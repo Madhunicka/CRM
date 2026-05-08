@@ -21,7 +21,15 @@ I decided to go with a decoupled architecture using **Next.js** for the frontend
 
 ## How to run it locally
 
-### 1. Database
+### 1. Environment Variables
+Create a `.env` file in the `server` directory with the following content:
+```env
+DATABASE_URL="postgresql://postgres:postgres@localhost:5433/nexus_crm?schema=public"
+JWT_SECRET="your-secret-key"
+PORT=5000
+```
+
+### 2. Database
 The database runs in Docker. 
 ```bash
 cd server
